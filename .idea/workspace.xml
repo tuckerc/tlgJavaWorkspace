@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79306885-f7a2-4fe7-80f7-86cccb4cea33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1d5Yi2HNGjUqKEq9LvbkOzoNH8O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Amazon WorkDocs Drive/My Documents/standup" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Amazon WorkDocs Drive/My Documents/standup" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TelevisionClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.entertainment.client.TelevisionClient" />
@@ -19,5 +59,44 @@
         <item itemvalue="Application.TelevisionClient" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79306885-f7a2-4fe7-80f7-86cccb4cea33" name="Default Changelist" comment="" />
+      <created>1591716546119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591716546119</updated>
+      <workItem from="1591716550966" duration="329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1358" height="263" key="GridCell.Tab.0.bottom" timestamp="1591716538695">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1358" height="263" key="GridCell.Tab.0.bottom/1792.133.1600.877/0.23.1792.1017@0.23.1792.1017" timestamp="1591716538695" />
+    <state width="1358" height="263" key="GridCell.Tab.0.center" timestamp="1591716538695">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1358" height="263" key="GridCell.Tab.0.center/1792.133.1600.877/0.23.1792.1017@0.23.1792.1017" timestamp="1591716538695" />
+    <state width="1358" height="263" key="GridCell.Tab.0.left" timestamp="1591716538695">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1358" height="263" key="GridCell.Tab.0.left/1792.133.1600.877/0.23.1792.1017@0.23.1792.1017" timestamp="1591716538695" />
+    <state width="1358" height="263" key="GridCell.Tab.0.right" timestamp="1591716538695">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1358" height="263" key="GridCell.Tab.0.right/1792.133.1600.877/0.23.1792.1017@0.23.1792.1017" timestamp="1591716538695" />
+    <state x="214" y="170" key="SettingsEditor" timestamp="1591716534121">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="214" y="170" key="SettingsEditor/1792.133.1600.877/0.23.1792.1017@0.23.1792.1017" timestamp="1591716534121" />
   </component>
 </project>
