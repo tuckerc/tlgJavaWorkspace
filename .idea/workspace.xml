@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b708ead1-f45f-4eb8-ad0d-e6ccf492f23f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TutLab_10_Vehicle/src/com/hr/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/TutLab_10_Vehicle/src/com/hr/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TutLab_10_Vehicle/src/com/hr/client/EmployeeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/TutLab_10_Vehicle/src/com/hr/client/EmployeeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TutLab_10_Vehicle/src/com/transportation/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/TutLab_10_Vehicle/src/com/transportation/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1d5qnRaeSNWA8y5UJxBNyeM5ygt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
   </component>
@@ -50,7 +52,18 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b708ead1-f45f-4eb8-ad0d-e6ccf492f23f" name="Default Changelist" comment="" />
+      <created>1591725468404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591725468404</updated>
+      <workItem from="1591725473612" duration="314000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2444" y="467" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591724644948">
