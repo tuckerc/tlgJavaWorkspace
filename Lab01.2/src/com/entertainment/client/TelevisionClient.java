@@ -1,6 +1,7 @@
 package com.entertainment.client;
 
 import com.entertainment.DisplayType;
+import com.entertainment.IllegalChannelAssignmentException;
 import com.entertainment.Television;
 
 public class TelevisionClient {
@@ -12,8 +13,12 @@ public class TelevisionClient {
         System.out.println(emptyTV);
         System.out.println(brandVolumeTV);
 
-        emptyTV.changeChannel(43);
-        System.out.println(emptyTV);
+        try {
+            emptyTV.changeChannel(43);
+            System.out.println(emptyTV);
+        } catch (IllegalChannelAssignmentException e) {
+            e.printStackTrace();
+        }
 
         Television tvA = new Television();
         Television tvB = new Television();
