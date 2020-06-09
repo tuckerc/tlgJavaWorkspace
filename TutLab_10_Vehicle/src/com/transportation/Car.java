@@ -17,7 +17,10 @@ public class Car extends Vehicle {
     }
 
     // BUSINESS METHODS
-    public void moveTo(String destination) {
+    public void moveTo(String destination) throws DestinationUnreachableException {
+        if(destination.equals("West Seattle")) {
+            throw new DestinationUnreachableException("Bridge closed due to cracking");
+        }
         System.out.println(getMake() + " " + getModel() + " moving to " + destination);
     }
 

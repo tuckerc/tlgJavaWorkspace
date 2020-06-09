@@ -5,9 +5,11 @@ import com.hr.Employee;
 public class EmployeeClient {
 
     public static void main(String[] args) {
-        // TODO: create an instance of Employee
+        // DONE: create an instance of Employee
+        Employee employee = new Employee("Chase");
 
         // TODO: call goToWork() on the Employee object
+        employee.goToWork();
 
     }
 }
