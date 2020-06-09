@@ -9,8 +9,17 @@
 package com.entertainment;
 
 public interface Volume {
+  static void silenceAll(Volume ... vols) {
+    for(Volume vol : vols) {
+      vol.silence();
+    }
+  }
+
   public void setVolume(int volume);
   public int getVolume();
   public void mute();
+  default void silence() {
+    setVolume(0);
+  }
   public boolean isMuted();
 }

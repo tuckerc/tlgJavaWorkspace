@@ -8,8 +8,7 @@
  */
 package com.entertainment;
 
-public class Television
-implements Volume {
+public class Television implements Volume {
   // CLASS (static) VARIABLES
   public static final int MIN_VOLUME = 0;
   public static final int MAX_VOLUME = 100;

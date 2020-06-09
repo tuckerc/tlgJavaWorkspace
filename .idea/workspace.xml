@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02491e24-9b44-4b54-bc36-e2b2834eaa79" name="Default Changelist" comment="" />
+    <list default="true" id="02491e24-9b44-4b54-bc36-e2b2834eaa79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.3/src/com/entertainment/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.3/src/com/entertainment/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.3/src/com/entertainment/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.3/src/com/entertainment/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.3/src/com/entertainment/Volume.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.3/src/com/entertainment/Volume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.3/test/com/entertainment/InterfaceMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.3/test/com/entertainment/InterfaceMethodsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1d4UUWQ1rS9NaV2dch6yc0we92a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +42,33 @@
       <recent name="C:\StudentWork\IntmJ\workspace\tlgJavaWorkspace\Lab01.2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TelevisionClient (1)">
+  <component name="RunManager" selected="Application.InterfaceMethodsTest">
+    <configuration name="InterfaceMethodsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.entertainment.InterfaceMethodsTest" />
+      <module name="Lab02.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.entertainment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javatunes.corp.client.TaxClient" />
+      <module name="Lab02.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatunes.corp.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TelevisionClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.entertainment.client.TelevisionClient" />
       <module name="MiniLab01.2" />
@@ -73,6 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaceMethodsTest" />
+        <item itemvalue="Application.TaxClient" />
         <item itemvalue="Application.TelevisionClient (1)" />
         <item itemvalue="Application.TelevisionValidationTest" />
         <item itemvalue="Application.TelevisionClient" />
@@ -93,33 +132,39 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="671" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1591685110730">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2351" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1591737067066">
+      <screen x="1792" y="133" width="1600" height="877" />
     </state>
     <state x="671" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591685110730" />
+    <state x="2351" y="213" key="#com.intellij.ide.util.MemberChooser/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591737067066" />
     <state x="634" y="84" key="FileChooserDialogImpl" timestamp="1591723460113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="634" y="84" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591723460113" />
-    <state width="1836" height="248" key="GridCell.Tab.0.bottom" timestamp="1591736365164">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1558" height="245" key="GridCell.Tab.0.bottom" timestamp="1591739075884">
+      <screen x="1792" y="133" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
-    <state width="1836" height="248" key="GridCell.Tab.0.center" timestamp="1591736365164">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1558" height="245" key="GridCell.Tab.0.bottom/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075884" />
+    <state width="1558" height="245" key="GridCell.Tab.0.center" timestamp="1591739075883">
+      <screen x="1792" y="133" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
-    <state width="1836" height="248" key="GridCell.Tab.0.left" timestamp="1591736365164">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1558" height="245" key="GridCell.Tab.0.center/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075883" />
+    <state width="1558" height="245" key="GridCell.Tab.0.left" timestamp="1591739075882">
+      <screen x="1792" y="133" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
-    <state width="1836" height="248" key="GridCell.Tab.0.right" timestamp="1591736365164">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1558" height="245" key="GridCell.Tab.0.left/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075882" />
+    <state width="1558" height="245" key="GridCell.Tab.0.right" timestamp="1591739075883">
+      <screen x="1792" y="133" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
-    <state x="468" y="85" width="1018" height="869" key="NewModule_or_Project.wizard" timestamp="1591723477446">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1558" height="245" key="GridCell.Tab.0.right/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075883" />
+    <state x="2182" y="205" width="1018" height="869" key="NewModule_or_Project.wizard" timestamp="1591738616126">
+      <screen x="1792" y="133" width="1600" height="877" />
     </state>
     <state x="468" y="85" width="1018" height="869" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591723477446" />
+    <state x="2182" y="205" key="NewModule_or_Project.wizard/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591738616126" />
   </component>
 </project>

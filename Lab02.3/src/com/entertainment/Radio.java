@@ -8,8 +8,7 @@
  */
 package com.entertainment;
 
-public class Radio
-implements Volume {
+public class Radio implements Volume {
   // INSTANCE VARIABLES
   private int volume;
   // for muting behavior
