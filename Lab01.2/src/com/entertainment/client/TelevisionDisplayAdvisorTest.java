@@ -9,6 +9,8 @@
 package com.entertainment.client;
 
 import static com.entertainment.DisplayType.*;
+
+import com.entertainment.DisplayType;
 import com.entertainment.Television;
 import com.entertainment.util.TelevisionDisplayAdvisor;
 
@@ -18,7 +20,10 @@ public class TelevisionDisplayAdvisorTest {
     // NOTE: TelevisionDisplayAdvisor.check() is a static method, so it's called via the classname
     
     // TODO: pass individual instances
-    TelevisionDisplayAdvisor.check(/* new Television(), new Television(), etc. */);
+    TelevisionDisplayAdvisor.check(
+            new Television("Sony", 50, LED),
+            new Television("Toshiba", 75, CRT),
+            new Television("LG", 15, LCD));
     System.out.println("-----");
     
     // TODO: pass nothing
@@ -26,8 +31,11 @@ public class TelevisionDisplayAdvisorTest {
     System.out.println("-----");
     
     // TODO: pass an array - would only do this if you already had one, otherwise just pass individual instances
-    Television[] tvArray = { /* new Television(), new Television(), etc. */ };
-    TelevisionDisplayAdvisor.check(/* pass in tvArray */);
+    Television[] tvArray = {
+            new Television("Sony", 50, LED),
+            new Television("Toshiba", 75, CRT),
+            new Television("LG", 15, LCD)};
+    TelevisionDisplayAdvisor.check(tvArray);
     System.out.println("-----");
   }
 }
