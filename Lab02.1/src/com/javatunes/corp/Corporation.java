@@ -10,8 +10,7 @@ package com.javatunes.corp;
 
 import gov.irs.TaxPayer;
 
-public class Corporation
-implements TaxPayer {
+public class Corporation implements TaxPayer {
   private String name;
   
   public Corporation() {

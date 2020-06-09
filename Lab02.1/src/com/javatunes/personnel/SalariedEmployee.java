@@ -10,8 +10,7 @@ package com.javatunes.personnel;
 
 import java.sql.Date;
 
-public class SalariedEmployee
-extends Employee {
+public class SalariedEmployee extends Employee {
   private Double salary;
   
   public SalariedEmployee() {
@@ -41,5 +40,12 @@ extends Employee {
   public String toString() {
     return getClass().getSimpleName() + ": name=" + getName() + ", hireDate=" + getHireDate() + 
       ", salary=" + getSalary();
+  }
+
+  @Override
+  public double payTaxes() {
+    double taxes = getSalary() * TAX_RATE;
+    System.out.println(getName() + " paid taxes of " + taxes);
+    return taxes;
   }
 }
