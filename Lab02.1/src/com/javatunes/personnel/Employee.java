@@ -8,10 +8,14 @@
  */
 package com.javatunes.personnel;
 
+import gov.irs.TaxPayer;
+
 import java.sql.Date;
 import java.util.Objects;
 
-public abstract class Employee {
+public abstract class Employee implements TaxPayer {
+  public static final double TAX_RATE = 0.30;
+
   private String name;
   private Date hireDate;
   
