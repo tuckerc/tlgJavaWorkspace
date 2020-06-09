@@ -7,7 +7,8 @@ import java.util.Objects;
  */
 public class Television implements Comparable<Television> {
     // class constants
-    
+    private static final int MIN_VOLUME = 0;
+    private static final int MAX_VOLUME = 100;
 
     // instance variables
     private String brand;
@@ -37,7 +38,11 @@ public class Television implements Comparable<Television> {
      */
     public Television(String brand, int volume) {
         this(brand);
-        this.setVolume(volume);
+        try {
+            this.setVolume(volume);
+        } catch (IllegalVolumeAssignmentException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -81,7 +86,11 @@ public class Television implements Comparable<Television> {
      * Setter for Television volume.
      * @param volume Current Television volume
      */
-    public void setVolume(int volume) {
+    public void setVolume(int volume) throws IllegalVolumeAssignmentException {
+        if(volume < MIN_VOLUME || volume > MAX_VOLUME) {
+            throw new IllegalVolumeAssignmentException("volume must be between " +
+                    MIN_VOLUME + "  and " + MAX_VOLUME);
+        }
         this.volume = volume;
     }
 
