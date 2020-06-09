@@ -10,6 +10,8 @@ package com.entertainment.client;
 
 import java.util.Arrays;
 import java.util.List;
+
+import com.entertainment.IllegalChannelAssignmentException;
 import com.entertainment.Television;
 import com.entertainment.TelevisionBrandChannelComparator;
 import com.entertainment.TelevisionChannelComparator;
@@ -52,19 +54,18 @@ public class TelevisionTestSort {
   // dataset for testing
   private static List<Television> createTelevisionList() {
     Television tv1 = new Television("Zenith", 30);
-    tv1.changeChannel(44);
-    
     Television tv2 = new Television("Hitachi", 10);
-    tv2.changeChannel(9);
-    
     Television tv3 = new Television("Sony", 50);
-    tv3.changeChannel(13);
-    
     Television tv4 = new Television("RCA", 25);
-    
     Television tv5 = new Television("Hitachi", 5);
-    
     Television tv6 = new Television("Sony", 40);
+    try {
+      tv1.changeChannel(44);
+      tv2.changeChannel(9);
+      tv3.changeChannel(13);
+    } catch (IllegalChannelAssignmentException e) {
+      e.printStackTrace();
+    }
     
     return Arrays.asList(tv1, tv2, tv3, tv4, tv5, tv6);
   }

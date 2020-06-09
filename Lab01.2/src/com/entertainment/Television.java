@@ -106,7 +106,7 @@ public class Television implements Comparable<Television> {
      * Setter for current Television channel.
      * @param channel Current Television channel
      */
-    public void changeChannel(int channel) {
+    public void changeChannel(int channel) throws IllegalChannelAssignmentException {
         tuner.setChannel(channel);
     }
 
