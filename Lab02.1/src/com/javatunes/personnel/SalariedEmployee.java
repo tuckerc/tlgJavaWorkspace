@@ -18,14 +18,16 @@ extends Employee {
   }
 
   public SalariedEmployee(String name, Date hireDate) {
-    setName(name);
-    setHireDate(hireDate);
+    super(name, hireDate);
   }
   
   public SalariedEmployee(String name, Date hireDate, Double salary) {
-    setName(name);
-    setHireDate(hireDate);
+    this(name, hireDate);
     setSalary(salary);
+  }
+
+  public void pay() {
+    System.out.println(getName() + " is paid salary " + getSalary());
   }
   
   public Double getSalary() {

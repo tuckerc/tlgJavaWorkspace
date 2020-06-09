@@ -11,6 +11,7 @@ package com.javatunes.member;
 public class SubMember extends Member {
   
   public SubMember() {
+    super("Member");
     // NOTE: there is a call to super() here! as the first line of code
     System.out.println("SubMember ctor");
   }

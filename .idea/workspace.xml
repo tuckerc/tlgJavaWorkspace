@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b708ead1-f45f-4eb8-ad0d-e6ccf492f23f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.1/src/com/javatunes/personnel/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.1/src/com/javatunes/personnel/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.1/src/com/javatunes/personnel/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.1/src/com/javatunes/personnel/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.1/src/com/javatunes/personnel/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.1/src/com/javatunes/personnel/HourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.1/src/com/javatunes/personnel/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.1/src/com/javatunes/personnel/SalariedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.1/src/com/javatunes/personnel/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.1/src/com/javatunes/personnel/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniLab02.1/src/com/javatunes/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniLab02.1/src/com/javatunes/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniLab02.1/src/com/javatunes/member/SubMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiniLab02.1/src/com/javatunes/member/SubMember.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +29,44 @@
   <component name="ProjectId" id="1d5qnRaeSNWA8y5UJxBNyeM5ygt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
     <option name="flattenPackages" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javatunes.member.Client" />
+      <module name="MiniLab02.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatunes.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javatunes.personnel.client.Client" />
+      <module name="Lab02.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatunes.personnel.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmployeeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hr.client.EmployeeClient" />
       <module name="TutLab_10_Vehicle" />
@@ -44,6 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.EmployeeClient" />
       </list>
     </recent_temporary>
@@ -58,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591725468404</updated>
-      <workItem from="1591725473612" duration="534000" />
+      <workItem from="1591725473612" duration="4706000" />
     </task>
     <servers />
   </component>
@@ -66,14 +106,39 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2192" y="237" key="#Notifications" timestamp="1591726904007">
+      <screen x="1792" y="133" width="1600" height="877" />
+    </state>
+    <state x="2192" y="237" key="#Notifications/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591726904007" />
     <state x="2444" y="467" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591724644948">
       <screen x="1792" y="110" width="1600" height="900" />
     </state>
     <state x="2444" y="467" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1792.110.1600.900/0.0.1792.1120@1792.110.1600.900" timestamp="1591724644948" />
-    <state x="2082" y="295" width="805" height="530" key="NewModule_or_Project.wizard" timestamp="1591724534438">
-      <screen x="1792" y="110" width="1600" height="900" />
+    <state width="1558" height="245" key="GridCell.Tab.0.bottom" timestamp="1591734937990">
+      <screen x="1792" y="133" width="1600" height="877" />
+    </state>
+    <state width="1558" height="245" key="GridCell.Tab.0.bottom/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591734937990" />
+    <state width="1558" height="245" key="GridCell.Tab.0.center" timestamp="1591734937990">
+      <screen x="1792" y="133" width="1600" height="877" />
+    </state>
+    <state width="1558" height="245" key="GridCell.Tab.0.center/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591734937990" />
+    <state width="1558" height="245" key="GridCell.Tab.0.left" timestamp="1591734937989">
+      <screen x="1792" y="133" width="1600" height="877" />
+    </state>
+    <state width="1558" height="245" key="GridCell.Tab.0.left/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591734937989" />
+    <state width="1558" height="245" key="GridCell.Tab.0.right" timestamp="1591734937990">
+      <screen x="1792" y="133" width="1600" height="877" />
+    </state>
+    <state width="1558" height="245" key="GridCell.Tab.0.right/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591734937990" />
+    <state x="2082" y="313" width="766" height="598" key="NewModule_or_Project.wizard" timestamp="1591734776895">
+      <screen x="1792" y="133" width="1600" height="877" />
     </state>
     <state x="2082" y="295" width="805" height="530" key="NewModule_or_Project.wizard/1792.110.1600.900/0.0.1792.1120@1792.110.1600.900" timestamp="1591724534438" />
     <state x="325" y="232" width="822" height="598" key="NewModule_or_Project.wizard/1792.133.1600.877/0.23.1792.1017@0.23.1792.1017" timestamp="1591724423108" />
+    <state x="2082" y="313" width="766" height="598" key="NewModule_or_Project.wizard/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591734776895" />
+    <state x="2081" y="153" key="SettingsEditor" timestamp="1591731489117">
+      <screen x="1792" y="133" width="1600" height="877" />
+    </state>
+    <state x="2081" y="153" key="SettingsEditor/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591731489117" />
   </component>
 </project>

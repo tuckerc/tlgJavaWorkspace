@@ -21,10 +21,6 @@ public class Client {
     Department dept = new Department("Sales", "Seattle");
     System.out.println(dept);
     
-    // add Employees to it
-    dept.addEmployee(new Employee("Jacob", Date.valueOf("1988-06-01")));
-    dept.addEmployee(new Employee("Amy",   Date.valueOf("2002-02-20")));
-    
     // add HourlyEmployees and SalariedEmployees to it
     dept.addEmployee(new HourlyEmployee("Lonnie",   Date.valueOf("2015-03-31"), 35.0, 40.0));
     dept.addEmployee(new HourlyEmployee("Martin",   Date.valueOf("2011-02-17"), 25.0, 20.0));
@@ -39,8 +35,8 @@ public class Client {
     System.out.println("\nMake employees work:");
     dept.workEmployees();
     
-    // TODO: uncomment this after you've implemented payEmployees() in Department
-    // System.out.println("\nPay employees:");
-    // dept.payEmployees();
+    // DONE: uncomment this after you've implemented payEmployees() in Department
+     System.out.println("\nPay employees:");
+     dept.payEmployees();
   }
 }
