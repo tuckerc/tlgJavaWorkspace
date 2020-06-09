@@ -19,15 +19,17 @@ extends Employee {
   }
   
   public HourlyEmployee(String name, Date hireDate) {
-    setName(name);
-    setHireDate(hireDate);
+    super(name, hireDate);
   }
   
   public HourlyEmployee(String name, Date hireDate, Double rate, Double hours) {
-    setName(name);
-    setHireDate(hireDate);
+    this(name, hireDate);
     setRate(rate);
     setHours(hours);
+  }
+
+  public void pay() {
+    System.out.println(getName() + " is paid hourly rate " + getRate());
   }
   
   public Double getRate() {
