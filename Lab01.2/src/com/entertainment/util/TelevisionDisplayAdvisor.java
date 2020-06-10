@@ -23,6 +23,12 @@ public class TelevisionDisplayAdvisor {
    * OPTIONAL: print "no upgrades needed" (once) if no CRT Televisions are found at all
    */
   public static void check(Television... tvs) {
-    // TODO
+    for(Television tv : tvs) {
+      if(tv.getDisplayType().equals(DisplayType.CRT)) {
+        System.out.println(tv.getBrand() + ": display type = " +tv.getDisplayType() + " -- !! TIME FOR AN UPGRADE !!");
+      } else {
+        System.out.println(tv.getBrand() + ": display type = " +tv.getDisplayType() + " -- no upgrade required");
+      }
+    }
   }
 }
