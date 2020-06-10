@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="491.0" y="125.0">com.entertainment.Tuner</node>
+    <node x="424.5" y="0.0">com.entertainment.IllegalChannelAssignmentException</node>
+    <node x="0.0" y="156.0">com.entertainment.DisplayType</node>
+    <node x="27.5" y="947.0">com.entertainment.TelevisionChannelComparator</node>
+    <node x="145.00000000000003" y="189.0">com.entertainment.IllegalVolumeAssignmentException</node>
+    <node x="799.5" y="0.0">com.entertainment.ChannelDisallowedException</node>
+    <node x="171.50000000000003" y="388.0">com.entertainment.Television</node>
+    <node x="317.5" y="947.0">com.entertainment.TelevisionBrandChannelComparator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.entertainment.TelevisionBrandChannelComparator" target="com.entertainment.Television">
+      <point x="0.0" y="-26.5" />
+      <point x="453.5" y="922.0" />
+      <point x="376.25" y="922.0" />
+      <point x="68.25" y="254.5" />
+    </edge>
+    <edge source="com.entertainment.Tuner" target="com.entertainment.IllegalChannelAssignmentException">
+      <point x="0.0" y="-101.5" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.entertainment.Television" target="com.entertainment.IllegalVolumeAssignmentException">
+      <point x="22.75" y="-254.5" />
+      <point x="330.75" y="348.0" />
+      <point x="389.5" y="348.0" />
+      <point x="81.5" y="37.5" />
+    </edge>
+    <edge source="com.entertainment.Television" target="com.entertainment.DisplayType">
+      <point x="-113.75" y="-254.5" />
+      <point x="194.25000000000003" y="368.0" />
+      <point x="31.25" y="368.0" />
+      <point x="-31.25" y="70.5" />
+    </edge>
+    <edge source="com.entertainment.Television" target="com.entertainment.Tuner">
+      <point x="68.25" y="-254.5" />
+      <point x="376.25" y="358.0" />
+      <point x="540.25" y="358.0" />
+      <point x="-49.25" y="101.5" />
+    </edge>
+    <edge source="com.entertainment.TelevisionChannelComparator" target="com.entertainment.Television">
+      <point x="0.0" y="-26.5" />
+      <point x="162.5" y="922.0" />
+      <point x="239.75000000000003" y="922.0" />
+      <point x="-68.25" y="254.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6372549019607843" x="542.5" y="500.00000000000006" />
+  <SelectedNodes>
+    <node>com.entertainment.Tuner</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
