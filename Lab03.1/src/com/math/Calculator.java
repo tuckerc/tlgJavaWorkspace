@@ -13,6 +13,18 @@ public class Calculator {
   public int add(int a, int b) {
     return a + b;
   }
+
+  public double add(int a, double b) {
+    return a + b;
+  }
+
+  public double add(double a, int b) {
+    return a + b;
+  }
+
+  public double add(double a, double b) {
+    return a + b;
+  }
   
   public double divide(int a, int b) {
     return 1.0 * a / b;  // convert to double, otherwise int / int -> int, e.g., 7/3 = 2
@@ -20,5 +32,9 @@ public class Calculator {
   
   public boolean isEven(int x) {
     return x % 2 == 0;
+  }
+
+  public int subtract(int a, int b) {
+    return a - b;
   }
 }
