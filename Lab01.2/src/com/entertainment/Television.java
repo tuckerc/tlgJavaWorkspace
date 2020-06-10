@@ -9,6 +9,8 @@ public class Television implements Comparable<Television> {
     // class constants
     private static final int MIN_VOLUME = 0;
     private static final int MAX_VOLUME = 100;
+    private static final int ADULT_CHANNEL_MIN = 500;
+    private static final int ADULT_CHANNEL_MAX = 599;
 
     // instance variables
     private String brand;
