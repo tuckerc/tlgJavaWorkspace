@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02491e24-9b44-4b54-bc36-e2b2834eaa79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab03.3/test/com/entertainment/TelevisionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03.3/Lab03.3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab03.3/Lab03.3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03.3/src/com/entertainment/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab03.3/src/com/entertainment/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04.1/Lab04.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04.1/Lab04.1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04.1/src/com/entertainment/catalog/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04.1/src/com/entertainment/catalog/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab04.1/test/com/entertainment/catalog/CatalogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04.1/test/com/entertainment/catalog/CatalogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
   </component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
+      <run-configuration type="JUnit" name="All in Lab04.1" />
       <run-configuration type="JUnit" name="All in Lab03.2" />
     </enabled-run-configurations>
   </component>
@@ -61,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.entertainment.catalog" />
       <recent name="com.entertainment" />
       <recent name="com.javatunes.personnel" />
       <recent name="com.math" />
@@ -74,26 +76,42 @@
       <recent name="C:\StudentWork\IntmJ\workspace\tlgJavaWorkspace\Lab01.2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TelevisionTest.testCompareTo_Equal">
-    <configuration name="All in Lab03.3 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab03.3" />
+  <component name="RunManager" selected="JUnit.All in Lab04.1">
+    <configuration name="All in Lab04.1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab04.1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelevisionTest.changeChannel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab03.3" />
+    <configuration name="CatalogTest.testFindByBrandMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab04.1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.entertainment.*" />
+          <option name="PATTERN" value="com.entertainment.catalog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.entertainment" />
-      <option name="MAIN_CLASS_NAME" value="com.entertainment.TelevisionTest" />
-      <option name="METHOD_NAME" value="changeChannel" />
+      <option name="PACKAGE_NAME" value="com.entertainment.catalog" />
+      <option name="MAIN_CLASS_NAME" value="com.entertainment.catalog.CatalogTest" />
+      <option name="METHOD_NAME" value="testFindByBrandMatches" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogTest.testFindByBrandNoMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab04.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.entertainment.catalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.entertainment.catalog" />
+      <option name="MAIN_CLASS_NAME" value="com.entertainment.catalog.CatalogTest" />
+      <option name="METHOD_NAME" value="testFindByBrandNoMatches" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,22 +128,6 @@
       <option name="PACKAGE_NAME" value="com.entertainment" />
       <option name="MAIN_CLASS_NAME" value="com.entertainment.TelevisionTest" />
       <option name="METHOD_NAME" value="testCompareTo_Equal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelevisionTest.testCompareTo_Pass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab03.3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.entertainment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.entertainment" />
-      <option name="MAIN_CLASS_NAME" value="com.entertainment.TelevisionTest" />
-      <option name="METHOD_NAME" value="testCompareTo_Pass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Lab04.1" />
+        <item itemvalue="JUnit.CatalogTest.testFindByBrandMatches" />
+        <item itemvalue="JUnit.CatalogTest.testFindByBrandNoMatches" />
         <item itemvalue="JUnit.TelevisionTest.testCompareTo_Equal" />
         <item itemvalue="JUnit.TelevisionTest.testCompareTo_Pass_GreaterThan" />
-        <item itemvalue="JUnit.TelevisionTest.testCompareTo_Pass" />
-        <item itemvalue="JUnit.All in Lab03.3 (1)" />
-        <item itemvalue="JUnit.TelevisionTest.changeChannel" />
       </list>
     </recent_temporary>
   </component>
@@ -193,48 +195,55 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="634" y="84" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591723460113" />
-    <state width="1558" height="245" key="GridCell.Tab.0.bottom" timestamp="1591831730555">
-      <screen x="1792" y="190" width="1600" height="797" />
+    <state width="1558" height="201" key="GridCell.Tab.0.bottom" timestamp="1591909452657">
+      <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.bottom/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075884" />
     <state width="1558" height="245" key="GridCell.Tab.0.bottom/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730555" />
-    <state width="1558" height="245" key="GridCell.Tab.0.center" timestamp="1591831730554">
-      <screen x="1792" y="190" width="1600" height="797" />
+    <state width="1558" height="201" key="GridCell.Tab.0.bottom/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591909452657" />
+    <state width="1558" height="201" key="GridCell.Tab.0.center" timestamp="1591909452657">
+      <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.center/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075883" />
     <state width="1558" height="245" key="GridCell.Tab.0.center/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730554" />
-    <state width="1558" height="245" key="GridCell.Tab.0.left" timestamp="1591831730553">
-      <screen x="1792" y="190" width="1600" height="797" />
+    <state width="1558" height="201" key="GridCell.Tab.0.center/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591909452657" />
+    <state width="1558" height="201" key="GridCell.Tab.0.left" timestamp="1591909452656">
+      <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.left/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075882" />
     <state width="1558" height="245" key="GridCell.Tab.0.left/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730553" />
-    <state width="1558" height="245" key="GridCell.Tab.0.right" timestamp="1591831730554">
-      <screen x="1792" y="190" width="1600" height="797" />
+    <state width="1558" height="201" key="GridCell.Tab.0.left/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591909452656" />
+    <state width="1558" height="201" key="GridCell.Tab.0.right" timestamp="1591909452657">
+      <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.right/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075883" />
     <state width="1558" height="245" key="GridCell.Tab.0.right/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730554" />
-    <state x="2182" y="198" width="779" height="659" key="NewModule_or_Project.wizard" timestamp="1591894169635">
+    <state width="1558" height="201" key="GridCell.Tab.0.right/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591909452657" />
+    <state x="2182" y="198" width="779" height="659" key="NewModule_or_Project.wizard" timestamp="1591904309740">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state x="468" y="85" width="1018" height="869" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591723477446" />
     <state x="2182" y="205" key="NewModule_or_Project.wizard/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591738616126" />
     <state x="2182" y="197" width="742" height="598" key="NewModule_or_Project.wizard/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591826646990" />
-    <state x="2182" y="198" width="779" height="659" key="NewModule_or_Project.wizard/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591894169635" />
-    <state x="2081" y="190" key="SettingsEditor" timestamp="1591818631637">
-      <screen x="1792" y="190" width="1600" height="797" />
+    <state x="2182" y="198" width="779" height="659" key="NewModule_or_Project.wizard/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591904309740" />
+    <state x="2081" y="190" key="SettingsEditor" timestamp="1591904495882">
+      <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state x="2081" y="190" key="SettingsEditor/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591818631637" />
-    <state x="2319" y="489" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591806144965">
-      <screen x="1792" y="190" width="1600" height="797" />
+    <state x="2081" y="190" key="SettingsEditor/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591904495882" />
+    <state x="2319" y="519" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591904373484">
+      <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state x="2319" y="489" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591806144965" />
-    <state x="2365" y="322" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591826952415">
-      <screen x="1792" y="190" width="1600" height="797" />
+    <state x="2319" y="519" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591904373484" />
+    <state x="2365" y="335" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591905123447">
+      <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state x="2365" y="322" key="com.intellij.testIntegration.createTest.CreateTestDialog/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591826952415" />
+    <state x="2365" y="335" key="com.intellij.testIntegration.createTest.CreateTestDialog/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591905123447" />
   </component>
 </project>
