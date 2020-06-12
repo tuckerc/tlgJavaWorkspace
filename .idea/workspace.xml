@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02491e24-9b44-4b54-bc36-e2b2834eaa79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04.2/Lab04.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04.2/Lab04.2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04.2/src/com/javatunes/product/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04.2/src/com/javatunes/product/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04.2/src/com/javatunes/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04.2/src/com/javatunes/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04.2/src/com/javatunes/product/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04.2/src/com/javatunes/product/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04.2/test/com/javatunes/product/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04.2/test/com/javatunes/product/OrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab04.2/test/com/javatunes/product/ShoppingCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab04.2/test/com/javatunes/product/ShoppingCartTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="02491e24-9b44-4b54-bc36-e2b2834eaa79" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
