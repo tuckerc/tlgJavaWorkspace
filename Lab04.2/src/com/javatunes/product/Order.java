@@ -11,10 +11,30 @@ package com.javatunes.product;
 import java.util.Collection;
 
 public class Order {
-  private String id;
+  private final Long id;
+  private final ShoppingCart<? extends Product> cart;
   
-  public Order(String id) {
-    this.id = id;
+  public static class Builder {
+    private final Long id;
+    private ShoppingCart<? extends Product> cart;
+
+    public Builder(Long id) {
+      this.id = id;
+    }
+
+    public Builder shoppingCart(ShoppingCart<? extends Product> cart) {
+      this.cart = cart;
+      return this;
+    }
+
+    public Order build() {
+      return new Order(this);
+    }
+  }
+
+  private Order(Builder builder) {
+    this.id = builder.id;
+    this.cart = builder.cart;
   }
   
   /**
@@ -22,11 +42,18 @@ public class Order {
    * get the items from the cart and iterate over them, print each item's product code
    * get cart total and print
    */
-  public void processCart(Object reference_to_cart) {
-    
+  public String processCart() {
+    StringBuffer sb = new StringBuffer();
+    sb.append("Order id: ").append(this.id).append("\n\tItems:");
+    Collection<? extends Product> items = this.cart.allItems();
+    for(Product item : items) {
+      sb.append("\n\t\t").append(item);
+    }
+    sb.append("\n\tOrder total: \t$").append(this.cart.total());
+    return sb.toString();
   }
   
-  public String getId() {
+  public Long getId() {
     return id;
   }
 }

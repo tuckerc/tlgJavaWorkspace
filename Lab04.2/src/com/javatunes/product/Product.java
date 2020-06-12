@@ -23,6 +23,6 @@ public abstract class Product {
   
   @Override
   public String toString() {
-    return getClass().getSimpleName() + "(" + getCode() + ")";
+    return getCode() + ": \t$" + getPrice();
   }
 }
