@@ -30,15 +30,15 @@ public class WildcardTest {
   
   @Test
   public void testSumDouble() {
-    Collection<Double> doubles = new ArrayList<>();
+    Collection<Number> doubles = new ArrayList<>();
     doubles.add(3.14);
     doubles.add(2.78);
     
     // sum() expects a Collection<Number> but I'm passing a Collection<Double>
     // that should be okay, right?
     
-    // double result = sum(doubles);
-    // assertEquals(5.92, result, .001);
+     double result = sum(doubles);
+     assertEquals(5.92, result, .001);
   }
   
   /*

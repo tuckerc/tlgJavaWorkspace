@@ -8,37 +8,194 @@
  */
 package com.javatunes.catalog;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 // OF COURSE THIS CLASS DOESN'T COMPILE
 // Your first job is to fulfill the contract that this class has signed.
 public class InMemoryCatalog implements Catalog {
 	
-	private List<MusicItem> catalogData = new ArrayList(Arrays.asList(
-	             /* id    title                        artist                       releaseDate  price  musicCategory */
-	  new MusicItem(1L,  "Diva",                      "Annie Lennox",              "1992-01-04", 13.99, MusicCategory.POP),
-	  new MusicItem(2L,  "Dream of the Blue Turtles", "Sting",                     "1985-02-05", 14.99, MusicCategory.POP),
-	  new MusicItem(3L,  "Trouble is...",             "Kenny Wayne Shepherd Band", "1997-08-08", 14.99, MusicCategory.BLUES),
-	  new MusicItem(4L,  "Lie to Me",                 "Jonny Lang",                "1997-08-26", 17.97, MusicCategory.BLUES),
-	  new MusicItem(5L,  "Little Earthquakes",        "Tori Amos",                 "1992-01-18", 14.99, MusicCategory.ALTERNATIVE),
-	  new MusicItem(6L,  "Seal",                      "Seal",                      "1991-08-18", 17.97, MusicCategory.POP),
-	  new MusicItem(7L,  "Ian Moore",                 "Ian Moore",                 "1993-12-05",  9.97, MusicCategory.CLASSICAL),
-	  new MusicItem(8L,  "So Much for the Afterglow", "Everclear",                 "1997-01-19", 13.99, MusicCategory.ROCK),
-	  new MusicItem(9L,  "Surfacing",                 "Sarah McLachlan",           "1997-12-04", 17.97, MusicCategory.ALTERNATIVE),
-	  new MusicItem(10L, "Hysteria",                  "Def Leppard",               "1987-06-20", 17.97, MusicCategory.ROCK),
-	  new MusicItem(11L, "A Life of Saturdays",       "Dexter Freebish",           "2000-12-06", 16.97, MusicCategory.RAP),
-	  new MusicItem(12L, "Human Clay",                "Creed",                     "1999-10-21", 18.97, MusicCategory.ROCK),
-	  new MusicItem(13L, "My, I'm Large",             "Bobs",                      "1987-02-20", 11.97, MusicCategory.COUNTRY),
-	  new MusicItem(14L, "So",                        "Peter Gabriel",             "1986-10-03", 17.97, MusicCategory.POP),
-	  new MusicItem(15L, "Big Ones",                  "Aerosmith",                 "1994-05-08", 18.97, MusicCategory.ROCK),
-	  new MusicItem(16L, "90125",                     "Yes",                       "1983-10-16", 11.97, MusicCategory.ROCK),
-	  new MusicItem(17L, "1984",                      "Van Halen",                 "1984-08-19", 11.97, MusicCategory.ROCK),
-	  new MusicItem(18L, "Escape",                    "Journey",                   "1981-02-25", 11.97, MusicCategory.CLASSIC_ROCK))
-	);
+	static final Map<Long, MusicItem> catalogData = new HashMap<>() {{
+		try {
+			long catalogSize = 0;
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Diva").
+					artist("Annie Lennox").
+					releaseDate("1992-01-04").
+					price(13.99).
+					musicCategory(MusicCategory.POP).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Dream of the Blue Turtles").
+					artist("Sting").
+					releaseDate("1985-02-05").
+					price(14.99).
+					musicCategory(MusicCategory.POP).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Trouble is...").
+					artist("Kenny Wayne Shepherd Band").
+					releaseDate("1997-08-08").
+					price(14.99).
+					musicCategory(MusicCategory.BLUES).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Lie to Me").
+					artist("Jonny Lang").
+					releaseDate("1997-08-26").
+					price(17.97).
+					musicCategory(MusicCategory.BLUES).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Little Earthquakes").
+					artist("Tori Amos").
+					releaseDate("1992-01-18").
+					price(14.99).
+					musicCategory(MusicCategory.ALTERNATIVE).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Seal").
+					artist("Seal").
+					releaseDate("1991-08-18").
+					price(17.97).
+					musicCategory(MusicCategory.POP).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Ian Moore").
+					artist("Ian Moore").
+					releaseDate("1993-12-05").
+					price(9.97).
+					musicCategory(MusicCategory.CLASSICAL).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("So Much for the Afterglow").
+					artist("Everclear").
+					releaseDate("1997-01-19").
+					price(13.99).
+					musicCategory(MusicCategory.ROCK).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Surfacing").
+					artist("Sarah McLachlan").
+					releaseDate("1997-12-04").
+					price(17.97).
+					musicCategory(MusicCategory.ALTERNATIVE).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Hysteria").
+					artist("Def Leppard").
+					releaseDate("1987-06-20").
+					price(17.97).
+					musicCategory(MusicCategory.ROCK).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("A Life of Saturdays").
+					artist("Dexter Freebish").
+					releaseDate("2000-12-06").
+					price(16.97).
+					musicCategory(MusicCategory.RAP).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Human Clay").
+					artist("Creed").
+					releaseDate("1999-10-21").
+					price(18.97).
+					musicCategory(MusicCategory.ROCK).
+					inCatalog(true).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("My, I'm Large").
+					artist("Bobs").
+					releaseDate("1987-02-20").
+					price(11.97).
+					musicCategory(MusicCategory.COUNTRY).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("So").
+					artist("Peter Gabriel").
+					releaseDate("1986-10-03").
+					price(17.97).
+					musicCategory(MusicCategory.POP).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Big Ones").
+					artist("Aerosmith").
+					releaseDate("1994-05-08").
+					price(18.97).
+					musicCategory(MusicCategory.ROCK).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("90125").
+					artist("Yes").
+					releaseDate("1983-10-16").
+					price(11.97).
+					musicCategory(MusicCategory.ROCK).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("1984").
+					artist("Van Halen").
+					releaseDate("1984-08-19").
+					price(11.97).
+					musicCategory(MusicCategory.ROCK).
+					inCatalog(true).
+					build());
+			put(++catalogSize, new MusicItem.Builder(catalogSize).
+					title("Escape").
+					artist("Journey").
+					releaseDate("1981-02-25").
+					price(11.97).
+					musicCategory(MusicCategory.CLASSIC_ROCK).
+					inCatalog(true).
+					build());
+		} catch (IllegalPriceException e) {
+			e.printStackTrace();
+		}
+	}};
+
+	@Override
+	public String toString() {
+		return getClass().getSimpleName() + ": " + catalogData;
+	}
+
+	@Override
+	public MusicItem findById(Long id) {
+		return null;
+	}
+
+	@Override
+	public Collection<MusicItem> findByKeyword(String keyword) {
+		return null;
+	}
+
+	@Override
+	public Collection<MusicItem> findByCategory(MusicCategory category) {
+		return null;
+	}
+
+	@Override
+	public int size() {
+		return 0;
+	}
+
+	@Override
+	public Collection<MusicItem> getAll() {
+		return null;
+	}
 
 	// AFTER YOU'VE SATISFIED YOUR CONTRACTUAL OBLIGATIONS ABOVE, DO THESE ADDITIONAL TASKS.
 	// NOTES:
@@ -121,9 +278,4 @@ public class InMemoryCatalog implements Catalog {
 	 * sell, that key's associated value should be an empty collection, not null.
 	 */
 
-
-	@Override
-	public String toString() {
-		return getClass().getSimpleName() + ": " + catalogData;
-	}	
 }
