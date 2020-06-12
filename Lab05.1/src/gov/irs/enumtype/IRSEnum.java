@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import gov.irs.TaxPayer;
 
-public enum IRSEnum {
+ enum IRSEnum implements IRS {
   INSTANCE;
   
   // BUSINESS CODE
@@ -42,14 +42,5 @@ public enum IRSEnum {
   // so we can see when INSTANCE is created
   IRSEnum() {
     System.out.println("--IRSEnum ctor: the instance has been created");
-  }
-  
-  /*
-   * superfluous static method that shouldn't be here
-   * if you call it, class is loaded and INSTANCE is created (prematurely)
-   * so just don't have superfluous static methods and your enum solution is indeed lazy
-   */
-  public static void touch() {
-    // no-op
   }
 }
