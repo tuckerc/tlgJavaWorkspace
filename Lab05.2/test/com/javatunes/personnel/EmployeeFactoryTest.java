@@ -9,6 +9,7 @@ import org.junit.Test;
 public class EmployeeFactoryTest {
   private Map<String,String> seMap;
   private Map<String,String> heMap;
+  private Map<String, String> invalidMap;
   
   /**
    * client input request is a Map<String,String>, here's a sample
@@ -43,6 +44,13 @@ public class EmployeeFactoryTest {
     heMap.put("hireDate", "1990-08-24");
     heMap.put("rate",     "50.0");
     heMap.put("hours",    "40.0");
+
+    invalidMap = new HashMap<>();
+    invalidMap.put("type", "NOT_VALID");
+    heMap.put("name",     "Jackie");
+    heMap.put("hireDate", "1990-08-24");
+    heMap.put("rate",     "50.0");
+    heMap.put("hours",    "40.0");
   }
   
   /**
@@ -52,7 +60,8 @@ public class EmployeeFactoryTest {
    */
   @Test
   public void testCreateEmployeeSalaried() {
-    // TODO
+    Employee salariedEmployee = EmployeeFactory.createEmployee(seMap);
+    assertEquals(SalariedEmployee.class, salariedEmployee.getClass());
   }
   
   /**
@@ -60,15 +69,16 @@ public class EmployeeFactoryTest {
    */
   @Test
   public void testCreateEmployeeHourly() {
-    // TODO
+    Employee hourlyEmployee = EmployeeFactory.createEmployee(heMap);
+    assertEquals(HourlyEmployee.class, hourlyEmployee.getClass());
   }
   
   /**
    * TASK: verify that passing a map with an invalid "type" value results in IllegalArgumentException.
    * The only valid values for "type" are "HE" or "SE".
    */
-  @Test
+  @Test (expected = IllegalArgumentException.class)
   public void testCreateEmployeeInvalidTypeThrowsIllegalArgumentException() {
-    // TODO
+    EmployeeFactory.createEmployee(invalidMap);
   }
 }
