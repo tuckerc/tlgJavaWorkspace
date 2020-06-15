@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02491e24-9b44-4b54-bc36-e2b2834eaa79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/product/OrderLocation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.2/Lab05.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.2/Lab05.2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.2/src/com/javatunes/personnel/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.2/src/com/javatunes/personnel/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.2/test/com/javatunes/personnel/EmployeeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.2/test/com/javatunes/personnel/EmployeeFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/Lab05.3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/Lab05.3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/EuropeTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/EuropeTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/OnlineTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/OnlineTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/USATax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/USATax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/product/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/product/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/test/com/javatunes/product/OrderTaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/test/com/javatunes/product/OrderTaxTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +29,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -78,6 +84,9 @@
       <recent name="com.javatunes.personnel" />
       <recent name="com.math" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.javatunes.product" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -87,7 +96,7 @@
       <recent name="C:\StudentWork\IntmJ\workspace\tlgJavaWorkspace\Lab01.2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Lab05.2">
+  <component name="RunManager" selected="JUnit.OrderTaxTest">
     <configuration name="IRSClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gov.irs.client.IRSClient" />
       <module name="Lab05.1" />
@@ -101,27 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IRSClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gov.irs.client.IRSClient" />
-      <module name="Scratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gov.irs.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in Lab04.2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab04.2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in Lab05.2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab05.2" />
       <option name="PACKAGE_NAME" value="" />
@@ -130,29 +118,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IRSEnumTest.testNormalClientUsage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab05.1" />
+    <configuration name="OrderTaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab05.3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gov.irs.enumtype.*" />
+          <option name="PATTERN" value="com.javatunes.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="gov.irs.enumtype" />
-      <option name="MAIN_CLASS_NAME" value="gov.irs.enumtype.IRSEnumTest" />
-      <option name="METHOD_NAME" value="testNormalClientUsage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.javatunes.product" />
+      <option name="MAIN_CLASS_NAME" value="com.javatunes.product.OrderTaxTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.javatunes.billing in Lab05.3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab05.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatunes.billing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javatunes.billing" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.javatunes.product in Lab05.3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab05.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatunes.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javatunes.product" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderTaxTest" />
+        <item itemvalue="JUnit.com.javatunes.product in Lab05.3" />
+        <item itemvalue="JUnit.com.javatunes.billing in Lab05.3" />
         <item itemvalue="JUnit.All in Lab05.2" />
         <item itemvalue="Application.IRSClient (1)" />
-        <item itemvalue="JUnit.IRSEnumTest.testNormalClientUsage" />
-        <item itemvalue="Application.IRSClient" />
-        <item itemvalue="JUnit.All in Lab04.2" />
       </list>
     </recent_temporary>
   </component>
@@ -186,14 +201,14 @@
       <screen x="1792" y="190" width="1600" height="797" />
     </state>
     <state x="2296" y="253" key="#TelevisionClient_(1)/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591746972017" />
-    <state x="2351" y="270" key="#com.intellij.ide.util.MemberChooser" timestamp="1591981446684">
+    <state x="2351" y="270" key="#com.intellij.ide.util.MemberChooser" timestamp="1592257318028">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state x="671" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591685110730" />
     <state x="626" y="116" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1591938770786" />
     <state x="2351" y="213" key="#com.intellij.ide.util.MemberChooser/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591737067066" />
     <state x="2351" y="263" key="#com.intellij.ide.util.MemberChooser/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591747842406" />
-    <state x="2351" y="270" key="#com.intellij.ide.util.MemberChooser/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591981446684" />
+    <state x="2351" y="270" key="#com.intellij.ide.util.MemberChooser/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592257318028" />
     <state x="2331" y="342" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1591924095859">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
@@ -202,52 +217,68 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="634" y="84" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591723460113" />
-    <state width="1501" height="217" key="GridCell.Tab.0.bottom" timestamp="1592002737671">
+    <state width="1501" height="270" key="GridCell.Tab.0.bottom" timestamp="1592259529307">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.bottom/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075884" />
     <state width="1558" height="245" key="GridCell.Tab.0.bottom/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730555" />
-    <state width="1501" height="217" key="GridCell.Tab.0.bottom/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592002737671" />
-    <state width="1501" height="217" key="GridCell.Tab.0.center" timestamp="1592002737670">
+    <state width="1501" height="270" key="GridCell.Tab.0.bottom/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529307" />
+    <state width="1501" height="270" key="GridCell.Tab.0.center" timestamp="1592259529306">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.center/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075883" />
     <state width="1558" height="245" key="GridCell.Tab.0.center/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730554" />
-    <state width="1501" height="217" key="GridCell.Tab.0.center/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592002737670" />
-    <state width="1501" height="217" key="GridCell.Tab.0.left" timestamp="1592002737669">
+    <state width="1501" height="270" key="GridCell.Tab.0.center/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529306" />
+    <state width="1501" height="270" key="GridCell.Tab.0.left" timestamp="1592259529305">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.left/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075882" />
     <state width="1558" height="245" key="GridCell.Tab.0.left/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730553" />
-    <state width="1501" height="217" key="GridCell.Tab.0.left/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592002737669" />
-    <state width="1501" height="217" key="GridCell.Tab.0.right" timestamp="1592002737670">
+    <state width="1501" height="270" key="GridCell.Tab.0.left/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529305" />
+    <state width="1501" height="270" key="GridCell.Tab.0.right" timestamp="1592259529306">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.right/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075883" />
     <state width="1558" height="245" key="GridCell.Tab.0.right/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730554" />
-    <state width="1501" height="217" key="GridCell.Tab.0.right/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592002737670" />
-    <state x="2182" y="198" width="779" height="659" key="NewModule_or_Project.wizard" timestamp="1591999478330">
+    <state width="1501" height="270" key="GridCell.Tab.0.right/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529306" />
+    <state width="1501" height="270" key="GridCell.Tab.1.bottom" timestamp="1592259529308">
+      <screen x="1792" y="190" width="1600" height="877" />
+    </state>
+    <state width="1501" height="270" key="GridCell.Tab.1.bottom/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529308" />
+    <state width="1501" height="270" key="GridCell.Tab.1.center" timestamp="1592259529308">
+      <screen x="1792" y="190" width="1600" height="877" />
+    </state>
+    <state width="1501" height="270" key="GridCell.Tab.1.center/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529308" />
+    <state width="1501" height="270" key="GridCell.Tab.1.left" timestamp="1592259529307">
+      <screen x="1792" y="190" width="1600" height="877" />
+    </state>
+    <state width="1501" height="270" key="GridCell.Tab.1.left/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529307" />
+    <state width="1501" height="270" key="GridCell.Tab.1.right" timestamp="1592259529308">
+      <screen x="1792" y="190" width="1600" height="877" />
+    </state>
+    <state width="1501" height="270" key="GridCell.Tab.1.right/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529308" />
+    <state x="2182" y="198" width="779" height="659" key="NewModule_or_Project.wizard" timestamp="1592254222808">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state x="468" y="85" width="1018" height="869" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591723477446" />
     <state x="2182" y="205" key="NewModule_or_Project.wizard/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591738616126" />
     <state x="2182" y="197" width="742" height="598" key="NewModule_or_Project.wizard/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591826646990" />
-    <state x="2182" y="198" width="779" height="659" key="NewModule_or_Project.wizard/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591999478330" />
+    <state x="2182" y="198" width="779" height="659" key="NewModule_or_Project.wizard/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592254222808" />
     <state x="324" y="23" key="SettingsEditor" timestamp="1591939255061">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="324" y="23" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1591939255061" />
     <state x="2081" y="190" key="SettingsEditor/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591818631637" />
     <state x="2081" y="190" key="SettingsEditor/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591904495882" />
-    <state x="2319" y="519" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591999866435">
+    <state x="2319" y="519" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1592256204217">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state x="2319" y="489" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591806144965" />
-    <state x="2319" y="519" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591999866435" />
+    <state x="2319" y="519" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592256204217" />
     <state x="2365" y="335" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591923526132">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
@@ -261,5 +292,16 @@
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state x="2307" y="222" key="refactoring.ChangeSignatureDialog/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591981539072" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lab05.3/test/com/javatunes/product/OrderTaxTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
