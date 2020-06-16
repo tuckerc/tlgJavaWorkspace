@@ -46,16 +46,25 @@ public class OrderTaxTest {
    */
   @Test
   public void testTaxOnlineOrder() {
-
+    Order order1 = new Order("1", OrderLocation.ONLINE);
+    assertEquals(20.00, order1.processCart(cart1), 0.001);
+    Order order2 = new Order("2", OrderLocation.ONLINE);
+    assertEquals(120.00, order2.processCart(cart2), 0.001);
   }
   
   @Test
   public void testTaxEuropeOrder() {
-
+    Order order1 = new Order("1", OrderLocation.EUROPE);
+    assertEquals(23.40, order1.processCart(cart1), 0.001);
+    Order order2 = new Order("2", OrderLocation.EUROPE);
+    assertEquals(145.40, order2.processCart(cart2), 0.001);
   }
   
   @Test
   public void testTaxUSAOrder() {
-
+    Order order1 = new Order("1", OrderLocation.USA);
+    assertEquals(20.00, order1.processCart(cart1), 0.001);
+    Order order2 = new Order("2", OrderLocation.USA);
+    assertEquals(130.00, order2.processCart(cart2), 0.001);
   }
 }
