@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02491e24-9b44-4b54-bc36-e2b2834eaa79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/product/OrderLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.3/Lab05.3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/Lab05.3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/EuropeTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/EuropeTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/OnlineTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/OnlineTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/USATax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/USATax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/product/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/product/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.3/test/com/javatunes/product/OrderTaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/test/com/javatunes/product/OrderTaxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.3/src/com/javatunes/billing/TaxCalculatorFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,34 +208,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="634" y="84" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591723460113" />
-    <state width="1501" height="270" key="GridCell.Tab.0.bottom" timestamp="1592259529307">
+    <state width="1501" height="217" key="GridCell.Tab.0.bottom" timestamp="1592318954600">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.bottom/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075884" />
     <state width="1558" height="245" key="GridCell.Tab.0.bottom/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730555" />
-    <state width="1501" height="270" key="GridCell.Tab.0.bottom/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529307" />
-    <state width="1501" height="270" key="GridCell.Tab.0.center" timestamp="1592259529306">
+    <state width="1501" height="217" key="GridCell.Tab.0.bottom/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592318954600" />
+    <state width="1501" height="217" key="GridCell.Tab.0.center" timestamp="1592318954600">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.center/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075883" />
     <state width="1558" height="245" key="GridCell.Tab.0.center/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730554" />
-    <state width="1501" height="270" key="GridCell.Tab.0.center/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529306" />
-    <state width="1501" height="270" key="GridCell.Tab.0.left" timestamp="1592259529305">
+    <state width="1501" height="217" key="GridCell.Tab.0.center/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592318954600" />
+    <state width="1501" height="217" key="GridCell.Tab.0.left" timestamp="1592318954599">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.left/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075882" />
     <state width="1558" height="245" key="GridCell.Tab.0.left/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730553" />
-    <state width="1501" height="270" key="GridCell.Tab.0.left/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529305" />
-    <state width="1501" height="270" key="GridCell.Tab.0.right" timestamp="1592259529306">
+    <state width="1501" height="217" key="GridCell.Tab.0.left/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592318954599" />
+    <state width="1501" height="217" key="GridCell.Tab.0.right" timestamp="1592318954600">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state width="1836" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591736365164" />
     <state width="1558" height="245" key="GridCell.Tab.0.right/1792.133.1600.877/0.23.1792.1017@1792.133.1600.877" timestamp="1591739075883" />
     <state width="1558" height="245" key="GridCell.Tab.0.right/1792.190.1600.797/0.23.1792.1097@1792.190.1600.797" timestamp="1591831730554" />
-    <state width="1501" height="270" key="GridCell.Tab.0.right/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592259529306" />
+    <state width="1501" height="217" key="GridCell.Tab.0.right/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1592318954600" />
     <state width="1501" height="270" key="GridCell.Tab.1.bottom" timestamp="1592259529308">
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
@@ -292,16 +283,5 @@
       <screen x="1792" y="190" width="1600" height="877" />
     </state>
     <state x="2307" y="222" key="refactoring.ChangeSignatureDialog/1792.190.1600.877/0.23.1792.1017@1792.190.1600.877" timestamp="1591981539072" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Lab05.3/test/com/javatunes/product/OrderTaxTest.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
