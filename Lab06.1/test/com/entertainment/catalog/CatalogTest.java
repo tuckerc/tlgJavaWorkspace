@@ -9,15 +9,21 @@
 package com.entertainment.catalog;
 
 import static org.junit.Assert.*;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+
+import java.util.*;
+
 import org.junit.Test;
 import com.entertainment.Television;
 
 public class CatalogTest {
   
+  @Test
+  public void testSortTelevisionByVolume() {
+    List<Television> tvList = new ArrayList<>(Catalog.getInventory());
+    tvList.sort( (tv1, tv2) -> tv1.getVolume() - tv2.getVolume() );
+    tvList.forEach((tv) -> System.out.println(tv));
+  }
+
   /**
    * Contract: a no-matches result should be an empty collection (not null).
    */
