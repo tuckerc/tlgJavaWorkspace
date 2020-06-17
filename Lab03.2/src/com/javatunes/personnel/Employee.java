@@ -63,10 +63,13 @@ implements TaxPayer, NamedEntity {
   @Override
   public boolean equals(Object obj) {
     boolean result = false;
-    if (obj instanceof Employee) {
+    if(this.hashCode() != obj.hashCode()) {
+      result = false;
+    }
+    else if (obj instanceof Employee) {
       Employee other = (Employee) obj;
       result = Objects.equals(this.getName(), other.getName()) &&
-               Objects.equals(this.getHireDate(), other.getHireDate());
+              Objects.equals(this.getHireDate(), other.getHireDate());
     }
     return result;
   }
