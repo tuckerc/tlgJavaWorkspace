@@ -17,7 +17,7 @@ import java.util.List;
 public class InMemoryCatalog implements Catalog {
 	
 	private List<MusicItem> catalogData = Arrays.asList(
-	             /* id    title                        artist                       releaseDate  price  musicCategory */
+					/* id    title                        		artist                       		releaseDate  			price  		musicCategory */
 	  new MusicItem(1L,  "Diva",                      "Annie Lennox",              "1992-01-04", 13.99, MusicCategory.POP),
 	  new MusicItem(2L,  "Dream of the Blue Turtles", "Sting",                     "1985-02-05", 14.99, MusicCategory.POP),
 	  new MusicItem(3L,  "Trouble is...",             "Kenny Wayne Shepherd Band", "1997-08-08", 14.99, MusicCategory.BLUES),
