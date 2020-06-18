@@ -26,8 +26,11 @@ public class Account {
     setBalance(balance + amount); // make the deposit
   }
 
-  public void withdraw(int amount) {
+  public void withdraw(int amount) throws IllegalWithdrawalException {
     int balance = getBalance();   // get balance and save it locally
+    if(balance - amount < 0) {
+      throw new IllegalWithdrawalException("Insufficient funds!");
+    }
     Rand.sleepRand(100, 200);
     setBalance(balance - amount); // make the withdrawal
   }

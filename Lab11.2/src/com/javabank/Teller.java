@@ -32,8 +32,12 @@ public class Teller extends Thread {
     
     System.out.println(getName() + ": Transfer " + amount + " from " + acct1.getName() + " to " + acct2.getName());
     synchronized (sharedLock) {
+      try {
         acct1.withdraw(amount);
         acct2.deposit(amount);
+      } catch (IllegalWithdrawalException e) {
+        System.out.println(e.getMessage());
+      }
     }
   }
 }
