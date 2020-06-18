@@ -13,10 +13,12 @@ public class Auditor
 extends Thread {
   private Account acct1;
   private Account acct2;
+  private Account acct3;
 
-  public Auditor(Account acct1, Account acct2) {
+  public Auditor(Account acct1, Account acct2, Account acct3) {
     this.acct1 = acct1;
     this.acct2 = acct2;
+    this.acct3 = acct3;
   }
   
   @Override
@@ -42,17 +44,19 @@ extends Thread {
   private void displayBalances() {
     int balance1 = acct1.getBalance();
     int balance2 = acct2.getBalance();
+    int balance3 = acct3.getBalance();
     
     StringBuffer msg = new StringBuffer("\n");
-    if ((balance1 + balance2) != 2000) {  // balance total incorrect?
+    if ((balance1 + balance2 + balance3) != 3000) {  // balance total incorrect?
       msg.append("**** Total = ");
     }
     else {
       msg.append("     Total = ");
     }
-    msg.append(balance1 + balance2);
+    msg.append(balance1 + balance2 + balance3);
     msg.append(" = (" + acct1.getName() + ") " + balance1);
     msg.append(" + (" + acct2.getName() + ") " + balance2);
+    msg.append(" + (" + acct3.getName() + ") " + balance3);
     msg.append("\n");
     System.out.println(msg);
   }
