@@ -13,12 +13,15 @@ public class MessagePrinterClient {
     // DONE: create two instances of your thread subclass and start them up
     MessagePrinter printer1 = new MessagePrinter("Roses are red");  // take the default interval
     MessagePrinter printer2 = new MessagePrinter("Violets are blue", 1375);
+
+    Thread printer1Tjread = new Thread(printer1, "printer 1");
+    Thread printer2Thread = new Thread(printer2, "printer 2");
     
-    printer1.start();
-    printer2.start();
+    printer1Tjread.start();
+    printer2Thread.start();
     
     // just for demonstration purposes - this shows why you don't call run() directly
-    // printer1.run();
-    // printer2.run();
+//     printer1.run();
+//     printer2.run();
   }
 }
