@@ -51,7 +51,12 @@ public class CatalogStreamTest {
    */
   @Test
   public void testTitleEqualsArtistSortNaturalOrder() {
-    // TODO
+    List<MusicItem> items = allMusicItems.stream()
+            .filter(item -> item.getArtist().equals(item.getTitle()))
+            .sorted()
+            .collect(Collectors.toList());
+    assertEquals("Seal", items.get(0).getArtist());
+    assertEquals("Ian Moore", items.get(items.size() - 1).getArtist());
   }
   
   /**

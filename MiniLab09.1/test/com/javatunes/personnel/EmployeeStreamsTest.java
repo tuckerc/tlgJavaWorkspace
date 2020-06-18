@@ -13,7 +13,9 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
 public class EmployeeStreamsTest {
   
@@ -37,6 +39,18 @@ public class EmployeeStreamsTest {
       .sorted()  // natural order
       .collect(Collectors.toList());
     
+    assertEquals(2, employees.size());
+    assertEquals(Long.valueOf(2),  employees.get(0).getId());
+    assertEquals(Long.valueOf(15), employees.get(1).getId());
+  }
+
+  @Test
+  public void testSalaryLessThanSortNaturalOrderParallelStream() {
+    List<Employee> employees = allEmployees.parallelStream()
+            .filter(emp -> emp.getSalary() < 40000.0)
+            .sorted()  // natural order
+            .collect(Collectors.toList());
+
     assertEquals(2, employees.size());
     assertEquals(Long.valueOf(2),  employees.get(0).getId());
     assertEquals(Long.valueOf(15), employees.get(1).getId());
