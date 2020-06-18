@@ -12,6 +12,7 @@ import com.javabank.Auditor;
 import com.javabank.Teller;
 
 public class Bank {
+  public static final Object sharedLock = new Object();
 
   public static void main(String[] args) {
     Account a1 = new Account("Account-1", 1000);

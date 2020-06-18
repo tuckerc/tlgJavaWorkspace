@@ -7,6 +7,8 @@
  */
 package com.javabank;
 
+import static com.javabank.client.Bank.sharedLock;
+
 public class Auditor
 extends Thread {
   private Account acct1;
@@ -20,7 +22,9 @@ extends Thread {
   @Override
   public void run() {
     while (true) {
-      displayBalances();
+      synchronized (sharedLock) {
+        displayBalances();
+      }
       try {
         Thread.sleep(2000);
       }

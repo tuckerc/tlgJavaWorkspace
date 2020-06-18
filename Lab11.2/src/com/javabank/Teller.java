@@ -7,10 +7,11 @@
  */
 package com.javabank;
 
-public class Teller
-extends Thread {
-  private Account acct1;
-  private Account acct2;
+import static com.javabank.client.Bank.sharedLock;
+
+public class Teller extends Thread {
+  private final Account acct1;
+  private final Account acct2;
 
   public Teller(Account acct1, Account acct2) {
     this.acct1 = acct1;
@@ -30,7 +31,9 @@ extends Thread {
     int amount = Rand.getRandHundred(100, 200);
     
     System.out.println(getName() + ": Transfer " + amount + " from " + acct1.getName() + " to " + acct2.getName());
-    acct1.withdraw(amount);
-    acct2.deposit(amount);
+    synchronized (sharedLock) {
+        acct1.withdraw(amount);
+        acct2.deposit(amount);
+    }
   }
 }
